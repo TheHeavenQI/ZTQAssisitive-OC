@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B0CEAF91E793E5900CDD17F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEAF81E793E5900CDD17F /* main.m */; };
+		3B0CEAFC1E793E5900CDD17F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEAFB1E793E5900CDD17F /* AppDelegate.m */; };
+		3B0CEAFF1E793E5900CDD17F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEAFE1E793E5900CDD17F /* ViewController.m */; };
+		3B0CEB021E793E5900CDD17F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CEB001E793E5900CDD17F /* Main.storyboard */; };
+		3B0CEB041E793E5900CDD17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CEB031E793E5900CDD17F /* Assets.xcassets */; };
+		3B0CEB071E793E5900CDD17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CEB051E793E5900CDD17F /* LaunchScreen.storyboard */; };
+		3B0CEB121E793E5900CDD17F /* ZTQAssisitiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEB111E793E5900CDD17F /* ZTQAssisitiveTests.m */; };
+		3B0CEB1D1E793E5900CDD17F /* ZTQAssisitiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEB1C1E793E5900CDD17F /* ZTQAssisitiveUITests.m */; };
+		3B0CEB2C1E79435300CDD17F /* ZTQAssisitiveButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEB2B1E79435300CDD17F /* ZTQAssisitiveButtonView.m */; };
+		3B0CEB321E794D2400CDD17F /* Control.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CEB311E794D2400CDD17F /* Control.png */; };
+		3B0F2C641E9F6113002F3BA9 /* ZTQASL.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0F2C631E9F6113002F3BA9 /* ZTQASL.m */; };
+		3B0F2C671E9F6312002F3BA9 /* SystemLogMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0F2C661E9F6312002F3BA9 /* SystemLogMessage.m */; };
+		3B7A07901E7A6E39005B1DA5 /* ZTQAssisitiveDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A078F1E7A6E39005B1DA5 /* ZTQAssisitiveDetailView.m */; };
+		3B7A07931E7BBE37005B1DA5 /* ZTQAssisitiveInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A07921E7BBE37005B1DA5 /* ZTQAssisitiveInfoViewController.m */; };
+		3B7A07961E7BCEEA005B1DA5 /* NSObject+ZTQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A07951E7BCEEA005B1DA5 /* NSObject+ZTQAdd.m */; };
+		3B7A07991E7BD66D005B1DA5 /* ZTQAssisitiveButtonView+changeToClose.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A07981E7BD66D005B1DA5 /* ZTQAssisitiveButtonView+changeToClose.m */; };
+		3B7A079B1E7BD7E4005B1DA5 /* ZTQClose_Assisitive.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B7A079A1E7BD7E4005B1DA5 /* ZTQClose_Assisitive.png */; };
+		3B7A07A91E7D44D6005B1DA5 /* AssisitiveTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A07A81E7D44D6005B1DA5 /* AssisitiveTableView.m */; };
+		3B7A07BB1E810E45005B1DA5 /* ZTQAssisitiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A07BA1E810E45005B1DA5 /* ZTQAssisitiveManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B0CEB0E1E793E5900CDD17F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B0CEAEC1E793E5900CDD17F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B0CEAF31E793E5900CDD17F;
+			remoteInfo = ZTQAssisitive;
+		};
+		3B0CEB191E793E5900CDD17F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B0CEAEC1E793E5900CDD17F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B0CEAF31E793E5900CDD17F;
+			remoteInfo = ZTQAssisitive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B0CEAF41E793E5900CDD17F /* ZTQAssisitive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTQAssisitive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0CEAF81E793E5900CDD17F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B0CEAFA1E793E5900CDD17F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B0CEAFB1E793E5900CDD17F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B0CEAFD1E793E5900CDD17F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B0CEAFE1E793E5900CDD17F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B0CEB011E793E5900CDD17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B0CEB031E793E5900CDD17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B0CEB061E793E5900CDD17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B0CEB081E793E5900CDD17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B0CEB0D1E793E5900CDD17F /* ZTQAssisitiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTQAssisitiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0CEB111E793E5900CDD17F /* ZTQAssisitiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTQAssisitiveTests.m; sourceTree = "<group>"; };
+		3B0CEB131E793E5900CDD17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B0CEB181E793E5900CDD17F /* ZTQAssisitiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTQAssisitiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0CEB1C1E793E5900CDD17F /* ZTQAssisitiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTQAssisitiveUITests.m; sourceTree = "<group>"; };
+		3B0CEB1E1E793E5900CDD17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B0CEB2A1E79435300CDD17F /* ZTQAssisitiveButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTQAssisitiveButtonView.h; sourceTree = "<group>"; };
+		3B0CEB2B1E79435300CDD17F /* ZTQAssisitiveButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTQAssisitiveButtonView.m; sourceTree = "<group>"; };
+		3B0CEB301E79456A00CDD17F /* ZTQAssisitivePCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTQAssisitivePCH.pch; sourceTree = "<group>"; };
+		3B0CEB311E794D2400CDD17F /* Control.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Control.png; sourceTree = "<group>"; };
+		3B0F2C621E9F6113002F3BA9 /* ZTQASL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTQASL.h; sourceTree = "<group>"; };
+		3B0F2C631E9F6113002F3BA9 /* ZTQASL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTQASL.m; sourceTree = "<group>"; };
+		3B0F2C651E9F6312002F3BA9 /* SystemLogMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemLogMessage.h; sourceTree = "<group>"; };
+		3B0F2C661E9F6312002F3BA9 /* SystemLogMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemLogMessage.m; sourceTree = "<group>"; };
+		3B7A078E1E7A6E39005B1DA5 /* ZTQAssisitiveDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTQAssisitiveDetailView.h; sourceTree = "<group>"; };
+		3B7A078F1E7A6E39005B1DA5 /* ZTQAssisitiveDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTQAssisitiveDetailView.m; sourceTree = "<group>"; };
+		3B7A07911E7BBE37005B1DA5 /* ZTQAssisitiveInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTQAssisitiveInfoViewController.h; sourceTree = "<group>"; };
+		3B7A07921E7BBE37005B1DA5 /* ZTQAssisitiveInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTQAssisitiveInfoViewController.m; sourceTree = "<group>"; };
+		3B7A07941E7BCEEA005B1DA5 /* NSObject+ZTQAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZTQAdd.h"; sourceTree = "<group>"; };
+		3B7A07951E7BCEEA005B1DA5 /* NSObject+ZTQAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZTQAdd.m"; sourceTree = "<group>"; };
+		3B7A07971E7BD66D005B1DA5 /* ZTQAssisitiveButtonView+changeToClose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZTQAssisitiveButtonView+changeToClose.h"; sourceTree = "<group>"; };
+		3B7A07981E7BD66D005B1DA5 /* ZTQAssisitiveButtonView+changeToClose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZTQAssisitiveButtonView+changeToClose.m"; sourceTree = "<group>"; };
+		3B7A079A1E7BD7E4005B1DA5 /* ZTQClose_Assisitive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZTQClose_Assisitive.png; sourceTree = "<group>"; };
+		3B7A07A71E7D44D6005B1DA5 /* AssisitiveTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssisitiveTableView.h; sourceTree = "<group>"; };
+		3B7A07A81E7D44D6005B1DA5 /* AssisitiveTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssisitiveTableView.m; sourceTree = "<group>"; };
+		3B7A07B81E810CF5005B1DA5 /* ZTQAssisitive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTQAssisitive.h; sourceTree = "<group>"; };
+		3B7A07B91E810E45005B1DA5 /* ZTQAssisitiveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTQAssisitiveManager.h; sourceTree = "<group>"; };
+		3B7A07BA1E810E45005B1DA5 /* ZTQAssisitiveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTQAssisitiveManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B0CEAF11E793E5900CDD17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0CEB0A1E793E5900CDD17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0CEB151E793E5900CDD17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B0CEAEB1E793E5900CDD17F = {
+			isa = PBXGroup;
+			children = (
+				3B0CEAF61E793E5900CDD17F /* ZTQAssisitive */,
+				3B0CEB101E793E5900CDD17F /* ZTQAssisitiveTests */,
+				3B0CEB1B1E793E5900CDD17F /* ZTQAssisitiveUITests */,
+				3B0CEAF51E793E5900CDD17F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B0CEAF51E793E5900CDD17F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B0CEAF41E793E5900CDD17F /* ZTQAssisitive.app */,
+				3B0CEB0D1E793E5900CDD17F /* ZTQAssisitiveTests.xctest */,
+				3B0CEB181E793E5900CDD17F /* ZTQAssisitiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B0CEAF61E793E5900CDD17F /* ZTQAssisitive */ = {
+			isa = PBXGroup;
+			children = (
+				3B0CEB311E794D2400CDD17F /* Control.png */,
+				3B7A079A1E7BD7E4005B1DA5 /* ZTQClose_Assisitive.png */,
+				3B7A07A31E7D3F05005B1DA5 /* AssisitiveModules */,
+				3B0F2C611E9F5B37002F3BA9 /* ConsoleLog */,
+				3B0CEAFA1E793E5900CDD17F /* AppDelegate.h */,
+				3B0CEAFB1E793E5900CDD17F /* AppDelegate.m */,
+				3B0CEAFD1E793E5900CDD17F /* ViewController.h */,
+				3B0CEAFE1E793E5900CDD17F /* ViewController.m */,
+				3B0CEB301E79456A00CDD17F /* ZTQAssisitivePCH.pch */,
+				3B7A07B81E810CF5005B1DA5 /* ZTQAssisitive.h */,
+				3B7A07B91E810E45005B1DA5 /* ZTQAssisitiveManager.h */,
+				3B7A07BA1E810E45005B1DA5 /* ZTQAssisitiveManager.m */,
+				3B7A07941E7BCEEA005B1DA5 /* NSObject+ZTQAdd.h */,
+				3B7A07951E7BCEEA005B1DA5 /* NSObject+ZTQAdd.m */,
+				3B7A07971E7BD66D005B1DA5 /* ZTQAssisitiveButtonView+changeToClose.h */,
+				3B7A07981E7BD66D005B1DA5 /* ZTQAssisitiveButtonView+changeToClose.m */,
+				3B0CEB2A1E79435300CDD17F /* ZTQAssisitiveButtonView.h */,
+				3B0CEB2B1E79435300CDD17F /* ZTQAssisitiveButtonView.m */,
+				3B7A078E1E7A6E39005B1DA5 /* ZTQAssisitiveDetailView.h */,
+				3B7A078F1E7A6E39005B1DA5 /* ZTQAssisitiveDetailView.m */,
+				3B7A07911E7BBE37005B1DA5 /* ZTQAssisitiveInfoViewController.h */,
+				3B7A07921E7BBE37005B1DA5 /* ZTQAssisitiveInfoViewController.m */,
+				3B0CEB001E793E5900CDD17F /* Main.storyboard */,
+				3B0CEB031E793E5900CDD17F /* Assets.xcassets */,
+				3B0CEB051E793E5900CDD17F /* LaunchScreen.storyboard */,
+				3B0CEB081E793E5900CDD17F /* Info.plist */,
+				3B0CEAF71E793E5900CDD17F /* Supporting Files */,
+			);
+			path = ZTQAssisitive;
+			sourceTree = "<group>";
+		};
+		3B0CEAF71E793E5900CDD17F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B0CEAF81E793E5900CDD17F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B0CEB101E793E5900CDD17F /* ZTQAssisitiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B0CEB111E793E5900CDD17F /* ZTQAssisitiveTests.m */,
+				3B0CEB131E793E5900CDD17F /* Info.plist */,
+			);
+			path = ZTQAssisitiveTests;
+			sourceTree = "<group>";
+		};
+		3B0CEB1B1E793E5900CDD17F /* ZTQAssisitiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B0CEB1C1E793E5900CDD17F /* ZTQAssisitiveUITests.m */,
+				3B0CEB1E1E793E5900CDD17F /* Info.plist */,
+			);
+			path = ZTQAssisitiveUITests;
+			sourceTree = "<group>";
+		};
+		3B0F2C611E9F5B37002F3BA9 /* ConsoleLog */ = {
+			isa = PBXGroup;
+			children = (
+				3B0F2C621E9F6113002F3BA9 /* ZTQASL.h */,
+				3B0F2C631E9F6113002F3BA9 /* ZTQASL.m */,
+				3B0F2C651E9F6312002F3BA9 /* SystemLogMessage.h */,
+				3B0F2C661E9F6312002F3BA9 /* SystemLogMessage.m */,
+			);
+			path = ConsoleLog;
+			sourceTree = "<group>";
+		};
+		3B7A07A31E7D3F05005B1DA5 /* AssisitiveModules */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A07A71E7D44D6005B1DA5 /* AssisitiveTableView.h */,
+				3B7A07A81E7D44D6005B1DA5 /* AssisitiveTableView.m */,
+			);
+			path = AssisitiveModules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B0CEAF31E793E5900CDD17F /* ZTQAssisitive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0CEB211E793E5900CDD17F /* Build configuration list for PBXNativeTarget "ZTQAssisitive" */;
+			buildPhases = (
+				3B0CEAF01E793E5900CDD17F /* Sources */,
+				3B0CEAF11E793E5900CDD17F /* Frameworks */,
+				3B0CEAF21E793E5900CDD17F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTQAssisitive;
+			productName = ZTQAssisitive;
+			productReference = 3B0CEAF41E793E5900CDD17F /* ZTQAssisitive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B0CEB0C1E793E5900CDD17F /* ZTQAssisitiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0CEB241E793E5900CDD17F /* Build configuration list for PBXNativeTarget "ZTQAssisitiveTests" */;
+			buildPhases = (
+				3B0CEB091E793E5900CDD17F /* Sources */,
+				3B0CEB0A1E793E5900CDD17F /* Frameworks */,
+				3B0CEB0B1E793E5900CDD17F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B0CEB0F1E793E5900CDD17F /* PBXTargetDependency */,
+			);
+			name = ZTQAssisitiveTests;
+			productName = ZTQAssisitiveTests;
+			productReference = 3B0CEB0D1E793E5900CDD17F /* ZTQAssisitiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B0CEB171E793E5900CDD17F /* ZTQAssisitiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0CEB271E793E5900CDD17F /* Build configuration list for PBXNativeTarget "ZTQAssisitiveUITests" */;
+			buildPhases = (
+				3B0CEB141E793E5900CDD17F /* Sources */,
+				3B0CEB151E793E5900CDD17F /* Frameworks */,
+				3B0CEB161E793E5900CDD17F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B0CEB1A1E793E5900CDD17F /* PBXTargetDependency */,
+			);
+			name = ZTQAssisitiveUITests;
+			productName = ZTQAssisitiveUITests;
+			productReference = 3B0CEB181E793E5900CDD17F /* ZTQAssisitiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B0CEAEC1E793E5900CDD17F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jiafakeji;
+				TargetAttributes = {
+					3B0CEAF31E793E5900CDD17F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2A5X76LEM4;
+						ProvisioningStyle = Automatic;
+					};
+					3B0CEB0C1E793E5900CDD17F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2A5X76LEM4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B0CEAF31E793E5900CDD17F;
+					};
+					3B0CEB171E793E5900CDD17F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2A5X76LEM4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B0CEAF31E793E5900CDD17F;
+					};
+				};
+			};
+			buildConfigurationList = 3B0CEAEF1E793E5900CDD17F /* Build configuration list for PBXProject "ZTQAssisitive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B0CEAEB1E793E5900CDD17F;
+			productRefGroup = 3B0CEAF51E793E5900CDD17F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B0CEAF31E793E5900CDD17F /* ZTQAssisitive */,
+				3B0CEB0C1E793E5900CDD17F /* ZTQAssisitiveTests */,
+				3B0CEB171E793E5900CDD17F /* ZTQAssisitiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B0CEAF21E793E5900CDD17F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0CEB071E793E5900CDD17F /* LaunchScreen.storyboard in Resources */,
+				3B7A079B1E7BD7E4005B1DA5 /* ZTQClose_Assisitive.png in Resources */,
+				3B0CEB041E793E5900CDD17F /* Assets.xcassets in Resources */,
+				3B0CEB021E793E5900CDD17F /* Main.storyboard in Resources */,
+				3B0CEB321E794D2400CDD17F /* Control.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0CEB0B1E793E5900CDD17F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0CEB161E793E5900CDD17F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B0CEAF01E793E5900CDD17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7A07901E7A6E39005B1DA5 /* ZTQAssisitiveDetailView.m in Sources */,
+				3B0F2C671E9F6312002F3BA9 /* SystemLogMessage.m in Sources */,
+				3B0F2C641E9F6113002F3BA9 /* ZTQASL.m in Sources */,
+				3B0CEAFF1E793E5900CDD17F /* ViewController.m in Sources */,
+				3B0CEAFC1E793E5900CDD17F /* AppDelegate.m in Sources */,
+				3B0CEB2C1E79435300CDD17F /* ZTQAssisitiveButtonView.m in Sources */,
+				3B7A07961E7BCEEA005B1DA5 /* NSObject+ZTQAdd.m in Sources */,
+				3B7A07931E7BBE37005B1DA5 /* ZTQAssisitiveInfoViewController.m in Sources */,
+				3B7A07991E7BD66D005B1DA5 /* ZTQAssisitiveButtonView+changeToClose.m in Sources */,
+				3B0CEAF91E793E5900CDD17F /* main.m in Sources */,
+				3B7A07A91E7D44D6005B1DA5 /* AssisitiveTableView.m in Sources */,
+				3B7A07BB1E810E45005B1DA5 /* ZTQAssisitiveManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0CEB091E793E5900CDD17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0CEB121E793E5900CDD17F /* ZTQAssisitiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0CEB141E793E5900CDD17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0CEB1D1E793E5900CDD17F /* ZTQAssisitiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B0CEB0F1E793E5900CDD17F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B0CEAF31E793E5900CDD17F /* ZTQAssisitive */;
+			targetProxy = 3B0CEB0E1E793E5900CDD17F /* PBXContainerItemProxy */;
+		};
+		3B0CEB1A1E793E5900CDD17F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B0CEAF31E793E5900CDD17F /* ZTQAssisitive */;
+			targetProxy = 3B0CEB191E793E5900CDD17F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B0CEB001E793E5900CDD17F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B0CEB011E793E5900CDD17F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B0CEB051E793E5900CDD17F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B0CEB061E793E5900CDD17F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B0CEB1F1E793E5900CDD17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B0CEB201E793E5900CDD17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B0CEB221E793E5900CDD17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2A5X76LEM4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZTQAssisitive/ZTQAssisitivePCH.pch";
+				INFOPLIST_FILE = ZTQAssisitive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiafa.ZTQAssisitive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B0CEB231E793E5900CDD17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2A5X76LEM4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZTQAssisitive/ZTQAssisitivePCH.pch";
+				INFOPLIST_FILE = ZTQAssisitive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiafa.ZTQAssisitive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B0CEB251E793E5900CDD17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2A5X76LEM4;
+				INFOPLIST_FILE = ZTQAssisitiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiafa.ZTQAssisitiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTQAssisitive.app/ZTQAssisitive";
+			};
+			name = Debug;
+		};
+		3B0CEB261E793E5900CDD17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2A5X76LEM4;
+				INFOPLIST_FILE = ZTQAssisitiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiafa.ZTQAssisitiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTQAssisitive.app/ZTQAssisitive";
+			};
+			name = Release;
+		};
+		3B0CEB281E793E5900CDD17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2A5X76LEM4;
+				INFOPLIST_FILE = ZTQAssisitiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiafa.ZTQAssisitiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZTQAssisitive;
+			};
+			name = Debug;
+		};
+		3B0CEB291E793E5900CDD17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2A5X76LEM4;
+				INFOPLIST_FILE = ZTQAssisitiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiafa.ZTQAssisitiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZTQAssisitive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B0CEAEF1E793E5900CDD17F /* Build configuration list for PBXProject "ZTQAssisitive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0CEB1F1E793E5900CDD17F /* Debug */,
+				3B0CEB201E793E5900CDD17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B0CEB211E793E5900CDD17F /* Build configuration list for PBXNativeTarget "ZTQAssisitive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0CEB221E793E5900CDD17F /* Debug */,
+				3B0CEB231E793E5900CDD17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B0CEB241E793E5900CDD17F /* Build configuration list for PBXNativeTarget "ZTQAssisitiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0CEB251E793E5900CDD17F /* Debug */,
+				3B0CEB261E793E5900CDD17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B0CEB271E793E5900CDD17F /* Build configuration list for PBXNativeTarget "ZTQAssisitiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0CEB281E793E5900CDD17F /* Debug */,
+				3B0CEB291E793E5900CDD17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B0CEAEC1E793E5900CDD17F /* Project object */;
+}
