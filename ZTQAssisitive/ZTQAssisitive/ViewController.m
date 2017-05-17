@@ -27,11 +27,42 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
-    
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        NSLog(@"出现了");
-        [ZTQAssisitiveButtonView showAssisitiView];
-    });
+    [self addButton];
+    [self dissMissButton];
+}
+
+#pragma mark - private methods
+
+- (void)dissMissButton {
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeSystem];
+    button.frame = CGRectMake(0, 0, 60, 30);
+    button.center = CGPointMake(self.view.center.x, self.view.center.y);
+    button.backgroundColor = [UIColor clearColor];
+    [button setTitle:@"移除" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(dissmissTheAssisitive) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)addButton {
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeSystem];
+    button.frame = CGRectMake(0, 0, 60, 30);
+    button.center = CGPointMake(self.view.center.x, self.view.center.y + 40);
+    button.backgroundColor = [UIColor clearColor];
+    [button setTitle:@"添加" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(addTheAssisitive) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+#pragma mark - event
+
+- (void)dissmissTheAssisitive {
+    [ZTQAssisitiveManager dissmissAssisitiView];
+}
+
+- (void)addTheAssisitive {
+    [ZTQAssisitiveManager showAssisitiView];
 }
 
 - (void)didReceiveMemoryWarning {
